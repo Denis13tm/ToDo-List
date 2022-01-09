@@ -1,5 +1,6 @@
 
 import Foundation
+import UserNotifications
 
 class ToDoItems {
     var itemsArray: [ToDoItem] = []
@@ -15,6 +16,8 @@ class ToDoItems {
         } catch {
             print("ERROR: Couldn't load data \(error.localizedDescription)")
         }
+        
+        setNotifications()
     }
     
     
@@ -33,6 +36,22 @@ class ToDoItems {
         
         completed()
     }
+    
+    func setNotifications() {
+        guard itemsArray.count > 0 else { return }
+        
+        //remove all Notifications
+        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+        
+        //and let's re-create them with the updated data that we just saved
+        for index in 0..<itemsArray.count {
+            if itemsArray[index].reminderSet {
+                let toDoItem = itemsArray[index]
+                itemsArray[index].notificationID = LocalNotificationManager.setCalendarNotification(title: toDoItem.name, subtitle: "subtitle", body: toDoItem.notes, badgeNumber: nil, sound: .default, date: toDoItem.date)
+            }
+        }
+    }
+    
     
     
 }
