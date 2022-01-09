@@ -16,6 +16,7 @@
 		F2AA752D2788B1110039C5BF /* ToDoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA752C2788B1110039C5BF /* ToDoDetailTableViewController.swift */; };
 		F2AA752F2788E1280039C5BF /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA752E2788E1280039C5BF /* ToDoItem.swift */; };
 		F2AA75352789DD0C0039C5BF /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA75342789DD0C0039C5BF /* ListTableViewCell.swift */; };
+		F2AA7538278B29400039C5BF /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA7537278B29400039C5BF /* ToDoItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F2AA752C2788B1110039C5BF /* ToDoDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailTableViewController.swift; sourceTree = "<group>"; };
 		F2AA752E2788E1280039C5BF /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		F2AA75342789DD0C0039C5BF /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		F2AA7537278B29400039C5BF /* ToDoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				F2AA752E2788E1280039C5BF /* ToDoItem.swift */,
+				F2AA7537278B29400039C5BF /* ToDoItems.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2AA751D2788A1B90039C5BF /* ToDoListViewController.swift in Sources */,
+				F2AA7538278B29400039C5BF /* ToDoItems.swift in Sources */,
 				F2AA75192788A1B90039C5BF /* AppDelegate.swift in Sources */,
 				F2AA752F2788E1280039C5BF /* ToDoItem.swift in Sources */,
 				F2AA752D2788B1110039C5BF /* ToDoDetailTableViewController.swift in Sources */,
