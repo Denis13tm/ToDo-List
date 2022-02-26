@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F229FF0E27C7243A00D92404 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F229FF0D27C7243A00D92404 /* CameraViewController.swift */; };
 		F2AA75192788A1B90039C5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA75182788A1B90039C5BF /* AppDelegate.swift */; };
 		F2AA751B2788A1B90039C5BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA751A2788A1B90039C5BF /* SceneDelegate.swift */; };
 		F2AA751D2788A1B90039C5BF /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA751C2788A1B90039C5BF /* ToDoListViewController.swift */; };
@@ -19,10 +20,10 @@
 		F2AA7538278B29400039C5BF /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA7537278B29400039C5BF /* ToDoItems.swift */; };
 		F2AA753A278B31DE0039C5BF /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA7539278B31DE0039C5BF /* LocalNotificationManager.swift */; };
 		F2AA753C278B3D360039C5BF /* UIViewController + alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA753B278B3D360039C5BF /* UIViewController + alert.swift */; };
-		F2AA753E278B4DAD0039C5BF /* sgsgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA753D278B4DAD0039C5BF /* sgsgTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F229FF0D27C7243A00D92404 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		F2AA75152788A1B90039C5BF /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AA75182788A1B90039C5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2AA751A2788A1B90039C5BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		F2AA7537278B29400039C5BF /* ToDoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
 		F2AA7539278B31DE0039C5BF /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 		F2AA753B278B3D360039C5BF /* UIViewController + alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + alert.swift"; sourceTree = "<group>"; };
-		F2AA753D278B4DAD0039C5BF /* sgsgTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sgsgTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F229FF0C27C723F200D92404 /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				F229FF0D27C7243A00D92404 /* CameraViewController.swift */,
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
 		F2AA750C2788A1B80039C5BF = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +80,7 @@
 			children = (
 				F2AA75332789CB9B0039C5BF /* models */,
 				F2AA75322789CB840039C5BF /* viewControllers */,
+				F229FF0C27C723F200D92404 /* camera */,
 				F2AA75302789CB700039C5BF /* utils */,
 				F2AA75182788A1B90039C5BF /* AppDelegate.swift */,
 				F2AA751A2788A1B90039C5BF /* SceneDelegate.swift */,
@@ -98,7 +107,6 @@
 				F2AA751C2788A1B90039C5BF /* ToDoListViewController.swift */,
 				F2AA752C2788B1110039C5BF /* ToDoDetailTableViewController.swift */,
 				F2AA75342789DD0C0039C5BF /* ListTableViewCell.swift */,
-				F2AA753D278B4DAD0039C5BF /* sgsgTableViewCell.swift */,
 			);
 			path = viewControllers;
 			sourceTree = "<group>";
@@ -182,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F229FF0E27C7243A00D92404 /* CameraViewController.swift in Sources */,
 				F2AA751D2788A1B90039C5BF /* ToDoListViewController.swift in Sources */,
 				F2AA7538278B29400039C5BF /* ToDoItems.swift in Sources */,
 				F2AA75192788A1B90039C5BF /* AppDelegate.swift in Sources */,
@@ -191,7 +200,6 @@
 				F2AA751B2788A1B90039C5BF /* SceneDelegate.swift in Sources */,
 				F2AA753A278B31DE0039C5BF /* LocalNotificationManager.swift in Sources */,
 				F2AA75352789DD0C0039C5BF /* ListTableViewCell.swift in Sources */,
-				F2AA753E278B4DAD0039C5BF /* sgsgTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
